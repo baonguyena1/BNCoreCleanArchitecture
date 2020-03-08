@@ -1,6 +1,0 @@
-framework module Pods_BNCleanArchirecture_BNCleanArchirectureTests {
-  umbrella header "Pods-BNCleanArchirecture-BNCleanArchirectureTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
