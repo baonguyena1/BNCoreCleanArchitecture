@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/BNCleanArchirecture"
+  spec.homepage     = "https://github.com/baonguyena1/BNCoreCleanArchitecture"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,8 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/baonguyena1/BNCoreCleanArchitecture",
-  :tag => "#{s.version}" }
+  spec.source       = { :git => "https://github.com/baonguyena1/BNCoreCleanArchitecture", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
